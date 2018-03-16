@@ -9,10 +9,14 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    private TextView text_View = findViewById(R.id.text_view);
+    private Button submitButton = findViewById(R.id.button_submit);
+    private EditText enterText = findViewById(R.id.edit_text);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 }
