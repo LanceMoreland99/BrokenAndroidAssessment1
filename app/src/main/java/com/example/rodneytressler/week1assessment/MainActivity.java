@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,5 +19,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
+        onClickListener();
     }
+    private void onClickListener(){
+
+        //  text_View.setText();
+        // Im having trouble with finding how to set text with input how its saying in question 7
+
+        enterText.setText("");
+
+        Toast.makeText(this, "I'm annoyed", Toast.LENGTH_SHORT).show();
+    }
+
 }
+
